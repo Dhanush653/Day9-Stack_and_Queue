@@ -33,12 +33,15 @@ public class Myqueue {
         }
 
     }
+    public void dequeue(){
+        head1 = head1.next1;
+    }
     public void display(){
         Node1 temp = head1;
         while(temp != null){
             System.out.print(temp.data1 + "->");
             temp = temp.next1;
         }
-        System.out.print("END");
+        System.out.println("END");
     }
 }

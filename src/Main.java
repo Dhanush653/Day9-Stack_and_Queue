@@ -8,5 +8,8 @@ public class Main {
         queue.add(30);
         queue.add(70);
         queue.display();
+        queue.dequeue();
+        queue.dequeue();
+        queue.display();
     }
 }
