@@ -25,6 +25,14 @@ public class Mystack {
             head = newnode;
         }
     }
+    //Remove the topmost Node
+    public void pop(){
+        head = head.next;
+    }
+    //Print The topmost Node
+    public void peak(){
+        System.out.println(head.data);
+    }
     public void display(){
         Node temp = head ;
         while(temp != null){

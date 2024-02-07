@@ -6,6 +6,11 @@ public class Main {
         stack.add(70);
         stack.add(30);
         stack.add(56);
+        stack.peak();
+        stack.display();
+        stack.pop();
+        stack.pop();
+        stack.pop();
         stack.display();
     }
 }
