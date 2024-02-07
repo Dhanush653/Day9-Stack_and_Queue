@@ -15,7 +15,7 @@ public class Mystack {
         this.head = null;
     }
     // Add Node At The Beginning
-    public void add(int val){
+    public void push(int val){
         Node newnode = new Node(val);
         if(head == null){
             head = newnode;
